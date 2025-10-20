@@ -53,7 +53,7 @@ cd junitec-git-flash-course
 git checkout -b branch-<nome>
 ```
 
-3. **Criar uma pasta e ficheiro**
+3. **Criar o ficheiro**
 ```bash
 mkdir <nome>
 echo "Olá, eu sou o <nome>!" > Files/<nome>.txt
