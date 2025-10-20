@@ -4,7 +4,7 @@
 Este repositório serve para praticar o uso básico do **Git** e do **GitHub**.  
 O objetivo é realizares todas estas tarefas:
 1. Criar uma **branch** com o teu nome  
-2. Adicionar um **ficheiro com o teu nome** na pasta "/Nomes"  
+2. Adicionar um **ficheiro com o teu nome** na pasta "/Ficheiros"  
 3. Fazer **push** para o GitHub  
 4. Fazer um **Pull Request (PR)** para a `main`  
 5. Fazer o **merge**  
@@ -56,7 +56,7 @@ git checkout -b branch-<nome>
 3. **Criar uma pasta e ficheiro**
 ```bash
 mkdir <nome>
-echo "Olá, eu sou o <nome>!" > <nome>/<nome>.txt
+echo "Olá, eu sou o <nome>!" > Files/<nome>.txt
 ```
 
 4. **Adicionar, fazer commit e push**
@@ -76,7 +76,7 @@ git push -u origin branch-<nome>
 
 ### 👉 Opção 2 — Usando o **GitHub Desktop**
 
-1. Abre o **GitHub Desktop**
+1. Abre o **GitHub Desktop**. Podes fazer o download através deste [Link](https://desktop.github.com/download/)
 2. Vai a **File → Clone Repository...** e escolhe este repositório
 3. Clica em **Current Branch → New Branch**, e chama-lhe `branch-<nome>`
 4. No teu explorador de ficheiros, cria uma pasta com o teu nome e adiciona um ficheiro `.txt` lá dentro
@@ -92,7 +92,6 @@ git push -u origin branch-<nome>
 
 ## ✅ O que deves entregar
 - [ ] Branch criada com o teu nome
-- [ ] Pasta criada com o teu nome
 - [ ] Ficheiro `.txt` com uma frase tua
 - [ ] Pull Request feito e merge concluído  
 
@@ -102,7 +101,6 @@ git push -u origin branch-<nome>
 Se quiseres ver o teu progresso:
 ```bash
 git status
-git log --oneline
 ```
 
 ---
