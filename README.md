@@ -55,14 +55,13 @@ git checkout -b branch-<nome>
 
 3. **Criar o ficheiro**
 ```bash
-mkdir <nome>
-echo "Olá, eu sou o <nome>!" > Files/<nome>.txt
+"Olá, eu sou o <nome>!" > Ficheiros/<nome>.txt
 ```
 
 4. **Adicionar, fazer commit e push**
 ```bash
 git add .
-git commit -m "Adicionar ficheiro de <nome>"
+git commit -m "Adicionar ficheiro <nome>.txt"
 git push -u origin branch-<nome>
 ```
 
