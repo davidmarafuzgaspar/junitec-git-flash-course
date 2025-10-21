@@ -42,9 +42,15 @@ git --version
 
 ### 👉 Opção 1 — Através do **terminal**
 
-1. **Clonar o repositório**
+1. **Clonar o repositório - Autenticação através de gh token**
 ```bash
 git clone https://github.com/davidmarafuzgaspar/junitec-git-flash-course.git
+cd junitec-git-flash-course
+```
+
+**Clonar o repositório - Autenticação através ssh**
+```bash
+git clone git@github.com:davidmarafuzgaspar/junitec-git-flash-course.git
 cd junitec-git-flash-course
 ```
 
